@@ -8,7 +8,7 @@
   
 
 
-var SNOW_Picture = "https://intranet.innovest.fr/Style%20Library/fr-fr/snow/snow.gif" ; 
+var SNOW_Picture = "https://github.com/Astellou/jsFunny/raw/main/snow.gif" ; 
 
 var SNOW_no = 15;  
   
