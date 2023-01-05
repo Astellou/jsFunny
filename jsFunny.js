@@ -87,7 +87,7 @@ function SNOW_Weather()
 	    document.getElementById("SNOW_flake"+i).style.left=SNOW_xp[i] + SNOW_am[i]*Math.sin(SNOW_dx[i])+"px";  
 	}  
 
-	SNOW_Time = setTimeout("SNOW_Weather()", 10);  
+	SNOW_Time = setTimeout("SNOW_Weather()", 100);  
 
 }  
   
