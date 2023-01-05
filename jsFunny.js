@@ -23,7 +23,8 @@ var i, SNOW_Browser_Width, SNOW_Browser_Height;
   
 
 function start() {  
-  
+        updateImage() 
+	
 	SNOW_browser_IE_NS = (document.body.clientHeight) ? 1 : 0;  
 	SNOW_browser_MOZ = (self.innerWidth) ? 1 : 0;  
 	SNOW_browser_IE7 = (document.documentElement.clientHeight) ? 1 : 0;  
@@ -66,8 +67,7 @@ function start() {
 }
   
 function SNOW_Weather()   
-{   
-  	updateImage()   
+{     
 
 	for (i = 0; i < SNOW_no; ++ i)   
 	{   
