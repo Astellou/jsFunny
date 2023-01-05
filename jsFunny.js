@@ -8,7 +8,7 @@
   
 
 
-var SNOW_Picture = "https://github.com/Astellou/jsFunny/raw/main/snow.gif" ; 
+var SNOW_Picture = "https://cdn.jsdelivr.net/gh/Astellou/jsFunny/snow.gif" ; 
 
 var SNOW_no = 15;  
   
@@ -96,12 +96,11 @@ function updateImage()
 	today = new Date();
 	hours = today.getHours();
 	if(hours >= 9 && hours < 14){
-		SNOW_Picture = "https://github.com/Astellou/jsFunny/raw/main/burger.png" ; 
+		SNOW_Picture = "https://cdn.jsdelivr.net/gh/Astellou/jsFunny/burger.png" ; 
 	}
 	else{
-		SNOW_Picture = "https://github.com/Astellou/jsFunny/raw/main/snow.gif" ; 
+		SNOW_Picture = "https://cdn.jsdelivr.net/gh/Astellou/jsFunny/snow.gif" ; 
 	}
-	
 	setTimeout("updateImage()", 60000);  
 }
 
