@@ -94,7 +94,7 @@ function SNOW_Weather()
 function updateImage()   
 { 
 	today = new Date();
-	hours = today.getHours()
+	hours = today.getHours();
 	if(hours >= 9 && hours < 14){
 		SNOW_Picture = "https://github.com/Astellou/jsFunny/raw/main/burger.png" ; 
 	}
