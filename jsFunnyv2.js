@@ -24,7 +24,7 @@ var i, SNOW_Browser_Width, SNOW_Browser_Height;
   
 
 function start() {  
-        updateImage() 
+        updateImage();
 	
 	SNOW_browser_IE_NS = (document.body.clientHeight) ? 1 : 0;  
 	SNOW_browser_MOZ = (self.innerWidth) ? 1 : 0;  
