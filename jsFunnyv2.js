@@ -106,5 +106,3 @@ function updateImage()
 	
 	setTimeout("updateImage()", 60000);  
 }
-
-start();
