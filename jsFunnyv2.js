@@ -65,7 +65,6 @@ function start() {
 		else $('body').append("<\div id=\"SNOW_flake"+ i +"\" style=\"position: absolute; z-index: "+ i +"; visibility: visible; top: 15px; left: 15px;\"><\img src=\""+SNOW_Picture+"\" border=\"0\"><\/div>");  
 	}  
 
-	updateImage();
 	SNOW_Weather();
 }
   
